@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  /*font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;*/
+  font-style: normal;
+}
+body{
+    background-color: #1A0B2E;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.display-flex{
+    display: flex;
+}
+
+.image {
+    position: relative;
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    color: #d6d2d6;
+    font-family: Tahoma;
+}
+.text-gray{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Tahoma;
+    text-align: center;
+}
+.text-title{
+    text-align: center;
+    gap: 20px;
+}
+.container {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0px auto;
+}
+.microphone{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 210px;
+   
+}
+.btn-new{
+    position: absolute;
+    font-size: 18px;
+    background-color: rgb(6, 245, 42);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: -100px;
+    margin-top: 10px;
+    padding: 6px 24px ;
+    border-radius: 16px;
+   
+    
+}
+.circle{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 95px;
+}
+.banner {
+  background: url("../assets/hero-bg.png" );
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  background-position: center;
+  background-size: cover;
+  height: 674px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40;
+  padding: 290px 120px 300px 120px;
+}
+.banner-content{
+    align-items: center;
+}
+.logo-first{
+    color: aliceblue;
+}
+.logo-style{
+    color: #3fb0fb;
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #8d0949;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    margin: 24px 100px 24px;
+}
+
+.btns{
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+.btn-message{
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 18px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1A0B2E;
+
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: aliceblue;
+    font-family: Tahoma;
+   
+}
+.nav-item{
+   list-style: none;
+   margin-right: 30px;
+  
+}
+
+.challange-container {
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 20px;
+  background-color: #1b033c;
+}
+
+    /*.about-heading{
+    max-width: 1200px;
+    height: 148px;
+}*/
+.section-title{
+    font-size: 2.5rem;
+    margin: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+}
+.paragraph-text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    
+    
+}
+span{
+    margin-top: 30px;
+} 
+
+
+.about-box{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    text-align: center;
+    gap: 80px;
+    color: rgb(73, 204, 73);
+}
+
+.choose-style{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px) 50px 50px;
+}
+.choose-title{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Tahoma;
+    color: white;
+}
+.alex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.alex-kumer{
+    max-width: 200px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Tahoma;
+    color: white;
+}
+.alex-content{
+   
+    margin-right: 240px;
+}
+

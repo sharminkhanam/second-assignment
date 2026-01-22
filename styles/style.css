@@ -367,3 +367,69 @@ padding: 120px 200px 120px 200px;
 }
 /*end*/
 
+
+
+/*footer section*/
+
+.footer-section{
+   
+    padding: 120px 0px 200px 0px;
+    background: url("../assets/footer-bg.png");
+}
+.footer-logo , .icons-footer, .footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo img{
+     width: 410px;
+    height: 60px;
+}
+.icons-footer, .footer-bottom{
+    margin-top: 30px;
+     color: rgba(255, 255, 255, 0.577);
+}
+.icons-footer{
+   display: flex;
+  justify-content: center;
+    gap: 30px;
+}
+.spotify , .twitter, .youtube, .apple{
+    display: flex;
+    gap: 4px;
+    font-size: 1.5rem;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.577);
+}
+/*end*/
+
+
+
+
+
+
+/* ****   *** */
+/*footer section*/
+
+.footer-style {
+ background: url("../assets/footer-bg.png");
+}
+.icons .fa-brands {
+  background-color: #f2f9f6;
+  padding: 2px 2px 2px 2px;
+  border-radius: 50px;
+  font-size: 18px;
+  margin: 6px 6px 6px 6px;
+}
+
+.footer-container hr {
+  margin: 80px 0 10px 10px;
+  height: 0;
+  opacity: 0.2;
+}
+
+  
+
+
+
+

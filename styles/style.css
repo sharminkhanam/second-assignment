@@ -299,3 +299,71 @@ gap: 40;
 
 /*end*/
 
+
+/*challange part*/
+
+.challange-container{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 120;
+padding: 120px 200px 120px 200px;
+
+}
+.alex-container{
+    width: 1200px;
+    height: 378px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #470c992c;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 40px;
+    
+}
+.alex-kumer{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Tahoma;
+    color: white;  
+}
+.alex-text{
+    font-size: 1rem;
+    font-family: Tahoma;
+    font-weight: 500;
+    margin-top: 16px;   
+}
+.alex-content{
+   margin-top: 16px;
+    margin-right: 240px;
+}
+.icons  {
+  color: rgba(251, 9, 180, 1);
+  font-size: 10px;
+  gap: 38px;
+  margin-top: 16px;
+  border-radius: 2px;
+}
+/*end*/
+
+
+/*video part */
+.vedio-container{
+display: flex;
+justify-content: space-between;
+padding: 120px 200px 120px 200px;
+}
+.vedio-card{
+    display: flex;
+    gap: 30px;  
+}
+.vedio-title{
+    font-size: 20px;
+    color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: 600;
+}
+/*end*/
+

@@ -53,3 +53,133 @@ body{
         
 }
 
+
+/*shared style end*/
+/*header style*/
+
+
+.btn{
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(47.64deg, rgba(247, 233, 1),
+    rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    color: white;
+    border: none;
+    border-radius: 18px;
+    margin-right: 200px;
+}
+.logo img{
+    
+    margin-left: 200px;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color:#1A0B2E;
+}
+
+.nav-links{
+    justify-content: center;
+    gap: 24px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: aliceblue;
+    font-family: Tahoma;   
+}
+
+.nav-item{
+   list-style: none; 
+}
+.nav-divided{
+    opacity: 0.2;
+}
+    .hamburger{
+        display: none;
+    }
+/*banner style*/
+.banner {
+  background: url("../assets/hero-bg.png" );
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  background-position: center;
+  background-size: cover;
+  height: 674px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40;
+  padding: 290px 120px 300px 120px;
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.microphone{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 190px;
+   
+}
+.image {
+    margin-top: 4px;
+    position: relative;
+}
+.btn-new{
+   
+    position: absolute;
+    font-size: 18px;
+    background-color: rgb(6, 245, 42);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: -100px;
+    margin-top: 10px;
+    padding: 6px 24px ;
+    border-radius: 16px;  
+    transition:transform 3s ;  
+}
+.btn-new:hover{
+    transform: rotate(45deg) scale(1.5);
+     
+    
+}
+.banner-title{
+    margin-top: 40px;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    font-family: Tahoma;
+}
+.banner-content{
+    align-items: center;
+}
+
+.btn-spotify {
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    padding: 8px 16px;
+    border-radius: 18px;
+    background: linear-gradient(47.64deg, rgba(247, 233, 1),
+    rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+}
+.btn-message{
+    padding: 8px 16px;
+    border: 1px solid rgb(18, 151, 58);
+    border-radius: 18px;
+    background-color: #1A0B2E;
+    color: rgb(18, 151, 58);  
+}
+/*end*/
+
